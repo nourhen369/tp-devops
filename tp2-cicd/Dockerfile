@@ -1,5 +1,5 @@
 # Java 21
-FROM eclipse-temurin:21-jdk-alpine
+FROM openjdk:21-jdk
 
 WORKDIR /app
 COPY target/tp2-cicd-0.0.1-SNAPSHOT.jar app.jar
