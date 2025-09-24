@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class App {
 
     public static void main(String[] args) {
-        SpringApplication.run(Tp2CicdApplication.class, args);
+        SpringApplication.run(App.class, args);
     }
 
     @GetMapping("/")
